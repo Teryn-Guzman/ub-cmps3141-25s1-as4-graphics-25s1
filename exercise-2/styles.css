@@ -5,3 +5,77 @@ Date: Dec.12.25
 */
 
 /* your css here */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f7f7;
+  color: #333;
+}
+header,
+footer,
+section {
+  background-color: #dbe2ef;
+}
+h1,
+h2 {
+  color: #3f72af;
+}
+header {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #3f72af;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+figure {
+  margin: 20px auto;
+}
+
+figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-style: italic;
+  color: #555;
+}
+
+.bio h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.bio p {
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+}
